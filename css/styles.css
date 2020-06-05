@@ -6,3 +6,16 @@
 .site-nav .link:focus {
   color: #2196f3;
 }
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.logo-black {
+  color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+  color: brown;
+}
