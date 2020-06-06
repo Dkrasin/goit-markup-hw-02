@@ -20,6 +20,10 @@
 .site-nav .link:focus {
   color: var(--active-color);
 }
+
+.site-nav .link.current {
+  color: var(--active-color);
+}
 /* LOGO */
 .logo {
   font-family: Raleway;
@@ -65,10 +69,21 @@ ul {
 }
 .section-title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
 }
 /* Hero */
 .hero-title {
   color: var(--hero-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 }
 
 /* Button */
@@ -105,4 +120,25 @@ ul {
 .button.secondary:focus {
   color: var(--hero-text-color);
   background-color: var(--active-color);
+}
+/* Our advantages */
+.text-p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-title.heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-title.white {
+  color: var(--hero-text-color);
 }
