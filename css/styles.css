@@ -226,3 +226,33 @@ ul {
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
 }
+.port {
+  display: none;
+}
+.potr-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--title-text-color);
+}
+.par-port {
+  color: var(--par-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+.text-inside {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  /* Временно черный так как фон белый */
+  color: var(--title-text-color);
+}
